@@ -1,0 +1,39 @@
+{
+  "name": "react-double-select",
+  "description": "React component that displays two multiples select where you can switch elements from one to another",
+  "version": "0.0.1",
+  "main": "react-double-select.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clementdubois/react-double-select"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "react-component",
+    "double-select",
+    "multi-select",
+    "doubleselect"
+  ],
+  "author": {
+    "name": "Clément Dubois",
+    "email": "clement.dubois77@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clementdubois/react-double-select/issues"
+  },
+  "homepage": "https://github.com/clementdubois/react-double-select",
+  "dependencies": {
+    "spin.js": "2.x"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "react": "*",
+    "reactify": "*",
+    "watchify": "*"
+  }
+}
