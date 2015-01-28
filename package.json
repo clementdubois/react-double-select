@@ -4,7 +4,11 @@
   "version": "0.0.1",
   "main": "react-double-select.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest ./__tests__"
+  },
+  "jest": {
+    "scriptPreprocessor": "./__tests__/preprocessor.js",
+    "unmockedModulePathPatterns": ["./node_modules/react"]
   },
   "repository": {
     "type": "git",
@@ -28,12 +32,17 @@
   },
   "homepage": "https://github.com/clementdubois/react-double-select",
   "dependencies": {
-    "spin.js": "2.x"
+    "lodash": "*",
+    "react": "*"
   },
   "devDependencies": {
     "browserify": "*",
-    "react": "*",
     "reactify": "*",
-    "watchify": "*"
+    "watchify": "*",
+    "jest-cli": "*",
+    "gulp": "*",
+    "vinyl-source-stream": "*",
+    "gulp-concat": "*",
+    "react-tools": "*"
   }
 }
