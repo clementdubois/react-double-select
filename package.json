@@ -7,7 +7,7 @@
     "test": "jest ./__tests__"
   },
   "jest": {
-    "scriptPreprocessor": "./__tests__/preprocessor.js",
+    "scriptPreprocessor": "./lib/preprocessor.js",
     "unmockedModulePathPatterns": ["./node_modules/react"]
   },
   "repository": {
